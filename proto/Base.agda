@@ -4,8 +4,8 @@ module proto.Base where
 
 open import proto.Core public 
 open import proto.ByteString
-open import proto.Map
-open import proto.IO
+open import proto.Map 
+open import proto.IO 
 
 data Strictness : Set where 
     Lazy   : Strictness 
